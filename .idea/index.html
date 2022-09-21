@@ -8,26 +8,17 @@
 </head>
 <body>
     <form action="">
-        <h1 title="Форма регистрации на сайте">Регистрация</h1>
-        <div class="group">
-            <center><label for="">Имя пользователя</label></center>
-            <center> <input type="text"></center>
+        <div class="form_auth_block">
+            <div class="form_auth_block_content">
+                <p class="form_auth_block_head_text">Авторизация</p>
+                <form class="form_auth_style" action="#" method="post">
+                    <label>Введите Ваш имейл</label>
+                    <input type="email" name="auth_email" placeholder="Введите Ваш имейл" required >
+                    <label>Введите Ваш пароль</label>
+                    <input type="password" name="auth_pass" placeholder="Введите пароль" required >
+                    <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+                </form>
+            </div>
         </div>
-        <div class="group">
-            <center> <label for="">Пароль</label></center>
-            <center><input type="password"></center>
-        </div>
-        <div class="group">
-            <center><label for="">Пароль ещё раз</label></center>
-            <center><input type="password"></center>
-        </div>
-        <div class="group">
-            <center><label for="">Адрес электронной почты</label></center>
-            <center><input type="email"></center>
-        </div>
-        <div class="group">
-            <center><button>Cоздать аккаунт</button></center>
-        </div>
-    </form>
 </body>
 </html>
